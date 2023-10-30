@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Popping', sans-serif;
+}
+body{
+  margin: 0;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  display: flex; 
+  align-items: center;
+  box-shadow: 0px 1px 30px grey;
+  background-color: whitesmoke;
+}
+.img{
+  width: 12em;
+  padding: 30px;
+  cursor: pointer;
+}
+.img-grid{
+  /* width: 100vmin;
+  height: 65vmin; */
+  margin-top: 7em;
+  width: 60%;
+  height: auto;
+  padding-top: 1em;
+}
+.image-hero{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-text{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.onlineexp{
+  font-size: 3.5em;
+}
+.content-para{
+  font-size:1.8em ;
+}
+.katie-zaf{
+  border-radius: 0.8em;
+  width: 18em;
+  height: 20em;
+}
+.component1{
+  width: 18em;
+  border-radius:0.8em ;
+  margin-top: 2em;
+  box-shadow: 0px 0.5px 40px rgb(159, 157, 157);
+  margin-bottom: 5em;
+  cursor: pointer;
+}
+.text1-part1{
+  display: flex;
+  align-items: center;
+  margin-left: 0.5em;
+  font-size: 1.1em;
+}
+.text1-part2{
+  margin-left:0.5em;
+  font-size: 1.3em;
+}
+.star-img{
+  width: 1em;
+  height: 1em;
+  margin-right: 1em;
+}
+.text1-part2 span{
+  font-weight: 700;
+}
+.text1-part1 span{
+  color: grey;
+}
+.exp{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+@media screen and (max-width:800px){
+  .img{
+    width: 10em;
+    padding: 20px;
+  }
+  .onlineexp{
+    font-size:2.2em ;
+  }
+  .content-para{
+    font-size:1.3em ;
+  }
+  .img-grid{
+    width: 80%;
+  }
+  .component1{
+    width: 12em; 
+    height: 23em;
+  }
+  .katie-zaf{
+    width: 12em;
+    height: 14em;
+  }
+  .text1-part1{
+    font-size: 0.9em;
+  }
+  .text1-part2{
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width:550px){
+  .onlineexp{
+    font-size:2em ;
+  }
+  .content-para{
+    font-size:1.1em ;
+  }
+  .img{
+    width: 9em;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .onlineexp{
+    font-size:2.4em ;
+  }
+  .content-para{
+    font-size:1.4em ;
+  }
+}
+
+@media screen and (max-width:500px){
+  .onlineexp{
+    font-size:2.2em ;
+  }
+  .content-para{
+    font-size:1.2em ;
+  }
+}
+@media screen and (max-width:450px){
+  .onlineexp{
+    font-size:2em ;
+  }
+  .content-para{
+    font-size:1em ;
+  }
+}
+@media screen and (max-width:350px){
+  .onlineexp{
+    font-size:1.9em ;
+  }
+  .content-para{
+    font-size:1.1em ;
+  }
+}
